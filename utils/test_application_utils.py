@@ -44,3 +44,7 @@ def delete_object():
     if response.status_code != 200:
         print(f"Delete object failed to delete with the error {response.json()['error']}")
     return response.json()
+
+
+def test_samp_test():
+    assert True
