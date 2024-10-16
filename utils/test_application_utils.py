@@ -45,3 +45,5 @@ def delete_object():
         print(f"Delete object failed to delete with the error {response.json()['error']}")
     return response.json()
 
+def test_sample_test_2():
+    assert True
